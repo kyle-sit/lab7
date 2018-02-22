@@ -12,6 +12,6 @@ function initializePage() {
 	// your code here
 	$(".likeBtn").click(function() {
 		//console.log("wtf");
-		ga("send", "event", "like", "click");
+		gtag("send", "event", "like", "click");
 	});
 }
